@@ -1,0 +1,330 @@
+/* reset */
+* {
+    margin: 0; padding: 0; text-decoration: none; list-style-type: none; line-height: 1; color: #333;
+}
+em{
+    font-style: normal;
+}
+.hide{
+    display: none !important;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #3e6ff7;
+    display: flex;
+    gap: 80px;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+
+/* 인트로 시작 */
+.intro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e6ff7;
+    height: 100vh;
+}
+.title1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.title2 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    margin-top: -50px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    
+}
+.logo span{
+    text-align: center;
+}
+.txt1 {
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #3e6ff7;
+}
+.txt2 {
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-top: -5px;
+    background-color: #3e6ff7;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.contact{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    line-height: 1;
+    
+}
+.contact dt{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact a{
+    color: #fff;
+    font-size: 18px;
+}
+.date{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    font-size: 0;
+    height: 7px;
+    line-height: 7px;    
+}
+.date span{
+    font-size: 14px;
+    background: #3e6ff7;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/* ABOUT 시작 */
+
+.cont{
+    background: #fff;
+    border-radius: 0 0 25px 25px;
+    height: 90%;
+    display: flex;
+    width: 270px;
+    padding-top: 75px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.cont h2{
+    
+}
+.cont h2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    color: #3e6ff7;
+}
+.texts dt{
+    margin-bottom: 30px;
+    position: relative;
+    color: #6F726F;
+}
+.texts span,a{
+    color: #6F726F;
+    line-height: 1.2;
+}
+.texts dt::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #908e8e;
+    bottom: -15px; left: 50%;
+    transform: translateX(-50%);
+}
+.cont img{
+    background: #ccc;
+    border-radius: 50%;
+    width: 220px;
+}
+.con1 > span{
+    display: block;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #7ECCFF;
+}
+.cont > span{
+    font-size: 12px;
+}
+.con2{
+    width: 100%;
+
+}
+.con2 span,li,div,strong,em{
+    color: #fff;
+}
+.conts{
+    position: relative;
+    padding-top: 105px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+}
+.border_box{
+    text-align: center;
+    position: absolute;
+    top: 7.5%;
+    right: 0;
+}
+.tt{
+    float: right;
+    display: block;
+    padding: 5px 10px;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+}
+.history ul{
+    display: grid;
+    align-content: center;
+    grid-template-columns:auto auto;
+    gap: 50px;
+    background-color: #3e6ff7;
+    /* padding: 50px; */
+}
+.history ul li{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.history li .title {
+    font-size: 22px;
+    position: relative;
+}
+.history li .title::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 6px 0 10px 0;
+    background: #fff;
+}
+.history li .title::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 6px 0 10px 0;
+    background: #fff;
+    right: 0;
+    bottom: -2px;  
+}
+.history li em{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.history li em span{
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 15px;
+    color: #eee;
+}
+.skill{
+    margin-top: 40px;
+}
+.skill .title{
+    font-size: 22px;
+    position: relative;
+}
+.skill .title::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 15px 0;
+    background: #fff;
+}
+.skill .title::before{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    right: 0;
+    bottom: -2px;  
+}
+.skill strong span{
+    font-size: 14px;
+    font-weight: normal;
+    color: #ededed;
+}
+.skill_bar {
+    display: flex;
+    flex-direction: column;
+}
+.skill_bar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    gap: 20px;
+}
+.skill_bar li > span{
+    font-weight: bold;
+    color: #3e6ff7;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    background: #fff;
+    text-align: center;
+    flex-shrink: 0;
+}
+.skill_bar li .bar{
+    width: 100%;
+    height: 20px;
+    background: #185AB3;
+    border-radius: 20px;
+}
+.skill_bar li .bar .ani_bar{
+    display: block;
+    width: 0%; /* 초기 너비 0%로 설정 */
+    height: 100%;
+    border-radius: 20px;
+    background: #fff;
+    transition: width 2s ease-in-out; /* 부드러운 애니메이션 효과 */
+}
+
+.skill_bar li {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.skill_bar li .bar {
+    width: 100%;
+    height: 20px;
+    background: #185AB3;
+    border-radius: 20px;
+}
